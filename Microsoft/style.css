@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #ffffff;
+}
+
+.container {
+  margin-left: 8%;
+  margin-right: 8%;
+  max-width: 100%;
+}
+
+.header {
+  height: 54px;
+  background-color: #ffffff;
+}
+
+.header
+.ul {
+  float: left;
+  margin-left: 17px;
+  margin-top: 18px;
+}
+
+.header
+.li {
+  display: inline-block;
+  margin: 0 13px 0 13px;
+  font-size: 14px;
+}
+
+.header
+.img1 {
+  width: 110px;
+  float: left;
+  margin-top: 16px;
+  margin-left: 9px;
+}
+
+.header-div {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(168, 0, 0);
+  text-align: center;
+}
+
+.href{
+  margin-top: 10px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.div2 {
+  background-color: gray;
+  height: 600px;
+  background: url(./laptop.png);
+}
+
+.div3 {
+  width: 800px;
+  
+  padding: 70px 0 0 100px;
+}
+
+.div3
+.background-h4 {
+  width: 120px;
+  color: #a80000;
+  background-color: #ffffff;
+  padding: 5px 10px 5px 10px;
+}
+
+.div3
+.background-h1 {
+  margin-top: 10px;
+}
+
+.div3
+.background-p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.div3
+.background-button {
+  margin-top: 10px;
+  padding: 8px 20px;
+  background-color: #a80000;
+  color: white;
+  border: 1px solid transparent;
+  outline: 1px solid transparent;
+  font-size: 15px;
+}
+
+
+
+.item1 {
+  /* To correctly align image, regardless of content height: */
+  vertical-align: top;
+  display: inline-block;
+  /* To horizontally center images and caption */
+  text-align: center;
+  /* The width of the container also implies margin around the images. */
+  width: 120px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+  .item2 {
+  width: 40px;
+  height: 40px;
+
+  
+}
+.item3 {
+  /* Make the caption a block so it occupies its own line. */
+  display: block;
+  
+}
+
+.icons {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 130px;
+  background-color: white;
+  text-align: center;
+}
+
+.box-container {
+  float: left;
+  
+  background-color: #2196F3;
+  
+}
+
+.box {
+  width: 380px;
+  height: 214px;
+  background-color: burlywood;
+
+}
+
+.box img {
+  width: 380px;
+  height: 214px;
+
+}
+
+.box-surface {
+  width: 380px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.grid-container {
+  margin-bottom: 40px;
+  display: grid;
+
+  
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 57px;
+
+
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.grid-container
+.grid-h3 {
+  margin-top: 30px;
+}
+
+.grid-container
+.grid-p {
+  margin-top: 10px;
+  font-size: 15.5px;
+}
+
+.grid-container
+.grid-button {
+  padding: 10px 3px 15px 0;
+  color: #a80000;
+  border: 2px solid transparent;
+  background-color: white;
+  outline: 1px solid transparent;
+  font-weight: bold;
+}
+
+
+.xbox {
+  
+  background: url(./xbox.png);
+  height: 600px;
+  margin-bottom: 50px;
+}
+
+.xbox-width {
+  width: 800px;
+  
+  padding: 250px 0 0 100px;
+}
+
+.xbox 
+.xbox-h1 {
+  color: white;
+}
+
+.xbox
+.xbox-p {
+  margin-top: 20px;
+  color: white;
+}
+
+.xbox
+.xbox-join {
+  width: 120px;
+  color: #000;
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 8px 20px 8px 20px;
+  border: 2px solid transparent;
+  outline: 1px solid transparent;
+}
+
+
+.business {
+  margin-bottom: 20px;
+}
+
+.covid19 {
+  height: 140px;
+  background-color: #e6e6e6;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.covid19
+.covid19-h2 {
+  font-size: 34px;
+  color: black;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.covid19 
+.covid19-p {
+  font-size: 15px;
+  color: black;
+  padding-top: 20px;
+}
+
+.covid19 
+.covid19-span {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+}
+
+.premonition {
+  height: 600px;
+  background: url(./background-3.png);
+  margin-bottom: 50px;
+}
+
+.premonition-width {
+  width: 800px;
+  
+  padding: 250px 0 0 100px;
+}
+
+.premonition 
+.premonition-h1 {
+  color: white;
+}
+
+.premonition
+.premonition-p {
+  margin-top: 20px;
+  color: white;
+}
+
+.premonition
+.premonition-button {
+  width: 90px;
+  color: #000;
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 8px 20px 8px 20px;
+  border: 2px solid transparent;
+  outline: 1px solid transparent;
+}
